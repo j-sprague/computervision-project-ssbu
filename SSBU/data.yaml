@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['dk', 'link', 'mario', 'samus']
+
+roboflow:
+  workspace: dtsc3000-uggrf
+  project: ssbu-project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dtsc3000-uggrf/ssbu-project/dataset/1
