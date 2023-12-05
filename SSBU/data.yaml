@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 4
-names: ['dk', 'link', 'mario', 'samus']
+nc: 8
+names: ['dk', 'fox', 'kirby', 'link', 'mario', 'pikachu', 'samus', 'yoshi']
 
 roboflow:
   workspace: dtsc3000-uggrf
-  project: ssbu-project
+  project: ssbu-project-v2
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/dtsc3000-uggrf/ssbu-project/dataset/1
+  url: https://universe.roboflow.com/dtsc3000-uggrf/ssbu-project-v2/dataset/1
